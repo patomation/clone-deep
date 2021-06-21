@@ -1,7 +1,19 @@
 {
-  "name": "npm-package-starter",
+  "name": "@patomation/clone-deep",
   "version": "0.0.1",
-  "description": "Javascript + Webpack vanilla starter project",
+  "description": "Recursive deep clone algorithm for object and arrays",
+  "keywords": [
+    "typescript",
+    "clone",
+    "object",
+    "array",
+    "deep clone",
+    "deepclone",
+    "clone object",
+    "clone array",
+    "browser",
+    "nodejs"
+  ],
   "public": true,
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -18,12 +30,9 @@
     "test": "npm run compile && npm run unit",
     "coverage": "npm run compile && npm run unit:coverage",
     "release": "standard-version",
-    "publish": "git push --follow-tags && npm publish",
+    "publish": "git push --follow-tags",
     "prepare": "husky install"
   },
-  "keywords": [
-    "typescript"
-  ],
   "author": "Patrick Kelly",
   "license": "MIT",
   "ava": {
