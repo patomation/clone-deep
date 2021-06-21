@@ -12,7 +12,8 @@
     "clone object",
     "clone array",
     "browser",
-    "nodejs"
+    "nodejs",
+    "Date"
   ],
   "public": true,
   "main": "build/index.js",
